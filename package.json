@@ -1,6 +1,6 @@
 {
     "name": "sails-hook-validation",
-    "version": "0.4.6",
+    "version": "0.4.7",
     "description": "Custom validation error messages for sails model with i18n support",
     "main": "index.js",
     "sails": {
@@ -12,7 +12,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/lykmapipo/sails-hook-validation.git"
+        "url": "https://github.com/neonexus/sails-hook-validation.git"
     },
     "keywords": [
         "sails",
@@ -35,16 +35,15 @@
         "module"
     ],
     "author": {
-        "name": "lykmapipo",
-        "email": "lallyelias87@gmail.com",
-        "url": "https://github.com/lykmapipo"
+        "name": "neonexus",
+        "url": "https://github.com/neonexus"
     },
     "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/lykmapipo/sails-hook-validation/issues"
-    },
-    "homepage": "https://github.com/lykmapipo/sails-hook-validation",
+    "homepage": "https://github.com/neonexus/sails-hook-validation",
     "contributors": [{
+        "name": "neonexus",
+        "github": "https://github.com/neonexus"
+    }, {
         "name": "lykmapipo",
         "github": "https://github.com/lykmapipo"
     }, {
