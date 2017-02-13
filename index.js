@@ -79,13 +79,7 @@ module.exports = function(sails) {
         },
 
         initialize: function(done) {
-            var eventsToWaitFor = [];
-
-            //wait for orm hook
-            //to be loaded
-            if (sails.hooks.orm) {
-                eventsToWaitFor.push('hook:orm:loaded');
-            }
+            var eventsToWaitFor = ['hook:orm:loaded'];
 
             //wait for pub sub hook
             //to be loaded
